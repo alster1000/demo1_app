@@ -24,3 +24,7 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
+
